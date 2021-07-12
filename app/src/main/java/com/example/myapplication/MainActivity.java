@@ -28,8 +28,12 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(MainActivity.class.getName(), "onClick btnLogin");
                 String username = txtUsername.getText().toString();
                 String pwd = txtPassword.getText().toString();
+                if(username.equals("aptech") && pwd.equals("12345")){
+                    Toast.makeText(MainActivity.this, username+"/" +pwd + " - LOGIN SUCCESS", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(MainActivity.this, username+"/" +pwd + " - LOGIN FAIL", Toast.LENGTH_SHORT).show();
+                }
 
-                Toast.makeText(MainActivity.this, username, Toast.LENGTH_SHORT).show();
             }
         });
 

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="#2ecc71"
     tools:context=".MainActivity">
 
     <TextView
@@ -27,7 +28,7 @@
         android:layout_gravity="center"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Username"
+        android:text=""
         tools:layout_editor_absoluteX="96dp"
         tools:layout_editor_absoluteY="222dp" />
 
@@ -40,7 +41,7 @@
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="96dp"
         tools:layout_editor_absoluteY="306dp"
-        tools:text="Password" />
+        tools:text="" />
 
     <Button
         android:id="@+id/am_btnLogin"
